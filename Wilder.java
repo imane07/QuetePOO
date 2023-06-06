@@ -25,14 +25,11 @@ public class Wilder {
 
     public String whoAmI(){
 
-       String chaineAware = "Je m'appelle "+ this.getFirstname() + " et je suis aware";
-       String chaineNotAware = "Je m'appelle "+ this.getFirstname() + " et je ne suis pas aware";
-
        if(!this.aware){
-           return chaineNotAware;
+           return "Je m'appelle "+ this.getFirstname() + " et je ne suis pas aware";
        }
        else{
-           return chaineAware;
+           return "Je m'appelle "+ this.getFirstname() + " et je suis aware";
        }
     }
 }
