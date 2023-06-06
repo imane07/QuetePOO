@@ -8,3 +8,6 @@ public class Classroom {
            System.out.println(secondwilder.whoAmI());
     }
 }
+
+//Je m'appelle Imane et je suis aware
+//Je m'appelle Jean Paul et je ne suis pas aware
